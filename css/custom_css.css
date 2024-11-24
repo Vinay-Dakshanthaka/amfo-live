@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Vercetti Regular';  /* Custom name for the font */
+      src: url('../assets/fonts/Vercetti Regular/OpenType\ WOFFs/Vercetti-Regular.woff2') format('woff2'),   /* WOFF2 format */
+           url('../assets/fonts/Vercetti Regular/Vercetti-Regular.woff/Vercetti-Regular.woff') format('woff');      /* WOFF format */
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    /* Optional: Add this to make the font the default for body text */
+    body {
+      font-family: 'Vercetti Regular', sans-serif; /* Apply the font */
+    }
+  }
+
+  .glassmorph{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.22);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.hero-img{
+  width: 40rem;
+}
+
+
+  
