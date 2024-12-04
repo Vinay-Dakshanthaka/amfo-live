@@ -12,10 +12,10 @@ menuToggle.addEventListener('click', () => {
 const dropdownToggle = document.getElementById('dropdown-toggle');
 const dropdownMenu = document.getElementById('dropdown-menu');
 
-dropdownToggle.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevents menu closing when clicking inside
-    dropdownMenu.classList.toggle('hidden');
-});
+// dropdownToggle.addEventListener('click', (e) => {
+//     e.stopPropagation(); // Prevents menu closing when clicking inside
+//     dropdownMenu.classList.toggle('hidden');
+// });
 
 // Close dropdown when clicking outside
 document.body.addEventListener('click', () => {
